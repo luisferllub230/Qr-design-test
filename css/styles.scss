@@ -10,10 +10,15 @@ body{
     margin: 0;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    min-width:100vw;
+    min-height:100vh;
+    background-color: $LightGray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main{
-    background-color: $LightGray;
     margin: 0;
     padding: 1rem;
     display: flex;
